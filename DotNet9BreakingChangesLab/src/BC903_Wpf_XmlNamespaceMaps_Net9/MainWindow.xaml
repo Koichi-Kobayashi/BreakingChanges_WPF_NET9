@@ -1,0 +1,13 @@
+<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="220" Width="520">
+  <Grid Margin="16">
+    <StackPanel>
+      <TextBlock x:Name="StatusText" FontSize="14" TextWrapping="Wrap" />
+      <TextBlock Margin="0,12,0,0" Opacity="0.7" TextWrapping="Wrap">
+        Run this project as Startup Project to reproduce the behavior.
+      </TextBlock>
+    </StackPanel>
+  </Grid>
+</Window>
